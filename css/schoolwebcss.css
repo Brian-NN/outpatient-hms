@@ -1,0 +1,392 @@
+/* Header */
+ .navbar {
+  background-color: #ffffff; /* White */
+}
+    .navbar-brand img {
+      width: 50px;
+    }
+   .navbar-nav .nav-item .nav-link {
+  color: #0020C2; /* Navy blue */
+  font-weight: 500;
+  font-size: 1.1em;
+}
+ .navbar-nav .nav-item .nav-link:hover {
+  color: #0000ff; /* Blue */
+  text-decoration: underline !important;
+}
+    .navbar-nav.ml-auto {
+      margin-right: 0;
+    }
+    .navbar-nav.center-menu {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .navbar-nav .right-menu {
+      margin-left: auto;
+    }
+
+/*Slider*/
+ .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+    .carousel-caption h5 {
+      color: #fff;
+    }
+    .carousel-caption p {
+      color: #ddd;
+    }
+    .hero-slide .intro-section {
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+    }
+    .hero-slide .intro-section .container {
+      height: 100%;
+    }
+    .hero-slide .intro-section .row {
+      height: 100%;
+    }
+    .hero-slide .intro-section .display-4 {
+      color: #fff;
+      font-size: 3em;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Footer Section */
+.footer_section {
+  background-color: #0020C2;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer_col {
+  margin-bottom: 30px;
+}
+
+.footer_contact h4, .footer_detail h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact_link_box a, .footer_detail p {
+  color: #fff;
+}
+
+.footer_detail a {
+  color: #fff;
+}
+
+.footer_social a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.footer-info {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer-info p {
+  margin-bottom: 0;
+}
+
+
+/* Styling for About Us Content */
+.content {
+  margin-top: 40px; /* Margin top for content */
+}
+
+.content h3 {
+  font-size: 24px; /* Larger font size for subheading */
+  color: #333; /* Dark text color */
+}
+
+.content p {
+  font-size: 16px; /* Font size for paragraph */
+  color: #666; /* Medium gray text color */
+  line-height: 1.8; /* Line height for readability */
+}
+
+.content ul {
+  list-style: none; /* Remove default list style */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.content ul li {
+  position: relative; /* Position relative for icon */
+  padding-left: 20px; /* Left padding for icon */
+  margin-bottom: 10px; /* Margin bottom for spacing */
+}
+
+.content ul li i {
+  position: absolute; /* Position absolute for icon */
+  left: 0; /* Align to the left */
+  top: 0; /* Align to the top */
+  color: #001f3f; /* Dark blue color for icon */
+}
+
+.content .fst-italic {
+  font-style: italic; /* Italic font style */
+  color: #666; /* Medium gray text color */
+}
+
+
+/* Styling for Section Title */
+.section-title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.section-title span {
+  display: block;
+  font-size: 45px; /* Larger font size for shadow text */
+  color: rgba(0, 0, 0, 0.1); /* Shadow text color */
+  text-transform: uppercase;
+  position: absolute; /* Position the span absolutely */
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Place behind the h2 text */
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+/* products card */
+.card {
+      margin: 0 10px; /* Adjust margin as needed */
+      transition: transform 0.3s; /* Add smooth transition effect */
+    }
+
+    .card:hover {
+      transform: scale(1.05); /* Scale up the card on hover */
+    }
+
+/*  Why choose us  */
+  body {
+      background-color: #ffffff;
+    }
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card-header {
+      background-color: #ffffff;
+      color: #ffffff;
+      border-bottom: none;
+      font-size: 1.25rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .card-body {
+      padding: 20px;
+      font-size: 1rem;
+      color: #ffffff;
+    }
+    .card-body p {
+      margin-bottom: 0;
+    }
+
+/* Clients table */
+.table {
+      margin-top: 50px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    thead {
+      background-color: #343a40;
+      color: #ffffff;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+    th, td {
+      text-align: center;
+      padding: 15px;
+    }
+
+/*  Contact us page  */
+  }
+  }
+    .contact-form {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .contact-info {
+      background: #343a40;
+      color: #ffffff;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    .contact-info h3, .contact-form h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+    }
+    .contact-info p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+    .form-control {
+      border-radius: 30px;
+      padding: 20px;
+      font-size: 1rem;
+    }
+    .form-control:focus {
+      border-color: #495057;
+      box-shadow: none;
+    }
+    .btn-contact {
+    background-color: transparent;
+    color: #28a745;
+    border: none;
+    border-color: #28a745; /* Border color */
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    transition: color 0.3s, background-color 0.3s;
+    display: block;
+    width: 100%;
+  }
+  .btn-contact:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #28a745; /* Background color on hover */  
+  }
+
+
+   
+
+/*  Bowls' page  */
+/*bowls' card*/
+/* Styling for the cards */
+.card {
+  transition: transform 0.2s;
+  
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Responsive styling */
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 150px;
+  }
+}
+
+/*Products breadcrumb*/
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.breadcrumb-container {
+    background-color: white !important;
+    color: blue; /* Change this to blue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh; /* 15% of the viewport height */
+    box-sizing: border-box;
+}
+
+.breadcrumb {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumb-item {
+    display: inline;
+    font-size: 20px;
+    color: blue; /* Change this to blue */
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: blue; /* Change this to blue */
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: " / ";
+    padding: 0 5px;
+    color: blue; /* Change this to blue */
+}
+
+
+/*Css for headings*/
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.my-about-us-heading {
+  color: blue !important;  /* Blue color for the heading */
+}
+
+/* Styles for the "Our Products" heading */
+.my-our-products-heading {
+  color: red !important; /* Red color for the heading */
+}
+
+
+
+/* Hover effect for all headings */
+.my-heading:hover {
+  color: darkblue; /* Darker shade of blue on hover */
+}

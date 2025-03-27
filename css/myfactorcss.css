@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #f4f7f6 !important;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    background-color: royalblue !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: 20px !important;
+
+}
+
+.contact-title {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px !important;
+    color: #333333 !important;
+}
+
+.contact-icon {
+    color: #007bff !important;
+    margin-right: 10px !important;
+}
+
+.contact-link {
+    color: royalblue; !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+
+.contact-link:hover {
+    text-decoration: underline !important;
+}
+
+.working-hours {
+    margin-top: 20px !important;
+    font-weight: 600 !important;
+    color: royalblue !important;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background-color: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.contact-title.text-center {
+    color: #007bff !important;
+}
+
+.form-label {
+    font-weight: 600 !important;
+    color: #555555 !important;
+}
+
+.form-control {
+    border-radius: 4px !important;
+    border: 1px solid #cccccc !important;
+}
+
+.form-control:focus {
+    border-color: #007bff !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+}
+
+.btn-primary:hover {
+    background-color: royalblue !important;
+    border-color: #004085 !important;
+}
+
+h4 {
+    color: royalblue !important;
+}
