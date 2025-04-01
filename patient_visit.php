@@ -90,7 +90,7 @@ if (isset($_POST['assign_visit'])) {
      <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
      <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css.map">
    
-     <link rel="stylesheet" href="css/e-commerce.css">
+     
 
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.js.map"></script>
