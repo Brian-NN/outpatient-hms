@@ -34,8 +34,6 @@ if (isset($_POST['logout'])) {
      <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css.map">
      <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
      <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css.map">
-   
-     <link rel="stylesheet" href="css/e-commerce.css">
 
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.js.map"></script>
